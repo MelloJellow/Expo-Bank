@@ -1,3 +1,11 @@
+Sample Images of Views
+
+<img width="503" height="875" alt="image" src="https://github.com/user-attachments/assets/b2650412-37f0-49af-b9ab-c9357260791c" />
+<img width="410" height="873" alt="image" src="https://github.com/user-attachments/assets/7c7f036a-1b4d-45ae-aff1-d9bc9b8141b1" />
+<img width="430" height="871" alt="image" src="https://github.com/user-attachments/assets/ce5b1b56-5406-43ac-b641-eab25b05e1d6" />
+<img width="505" height="895" alt="image" src="https://github.com/user-attachments/assets/4f7de66f-cb37-4cbf-993a-1f07ea938237" />
+
+
 # Welcome to your Expo app 👋
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
