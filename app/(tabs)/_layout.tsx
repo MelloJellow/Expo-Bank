@@ -1,33 +1,72 @@
-import { Tabs } from 'expo-router';
-import React from 'react';
+import { Tabs } from "expo-router";
+import { Ionicons } from "@expo/vector-icons";
+import AntDesign from "@expo/vector-icons/AntDesign";
+import Entypo from "@expo/vector-icons/Entypo";
+import EvilIcons from "@expo/vector-icons/EvilIcons";
 
-import { HapticTab } from '@/components/haptic-tab';
-import { IconSymbol } from '@/components/ui/icon-symbol';
-import { Colors } from '@/constants/theme';
-import { useColorScheme } from '@/hooks/use-color-scheme';
-
-export default function TabLayout() {
-  const colorScheme = useColorScheme();
-
+export default function TabsLayout() {
   return (
     <Tabs
       screenOptions={{
-        tabBarActiveTintColor: Colors[colorScheme ?? 'light'].tint,
-        headerShown: false,
-        tabBarButton: HapticTab,
-      }}>
+        tabBarActiveTintColor: "#ffd33d",
+        headerStyle: {
+          backgroundColor: "#25292e",
+        },
+        headerShadowVisible: false,
+        headerTintColor: "#fff",
+        tabBarStyle: {
+          backgroundColor: "#25292e",
+        },
+      }}
+    >
       <Tabs.Screen
         name="index"
         options={{
-          title: 'Home',
-          tabBarIcon: ({ color }) => <IconSymbol size={28} name="house.fill" color={color} />,
+          headerTitle: "Bank App",
+          //headerLeft: () => <></>, //locks backpage (decent for 404 handle)
+          tabBarIcon: ({ focused, color }) => (
+            <Ionicons
+              name={focused ? "home-sharp" : "home-outline"}
+              color={color}
+              size={30}
+            />
+          ),
         }}
       />
       <Tabs.Screen
-        name="explore"
+        name="chart"
         options={{
-          title: 'Explore',
-          tabBarIcon: ({ color }) => <IconSymbol size={28} name="paperplane.fill" color={color} />,
+          headerTitle: "Chart",
+          tabBarIcon: ({ focused, color }) => (
+            <EvilIcons
+              name={focused ? "chart" : "chart"}
+              color={color}
+              size={30}
+            />
+          ),
+        }}
+      />
+      <Tabs.Screen
+        name="chqocr"
+        options={{
+          headerTitle: "Cheque Scanner",
+          tabBarIcon: ({ focused, color }) => (
+            <AntDesign
+              name={focused ? "scan" : "scan"}
+              color={color}
+              size={30}
+            />
+          ),
+        }}
+      />
+
+      <Tabs.Screen
+        name="help"
+        options={{
+          headerTitle: "Help",
+          tabBarIcon: ({ focused, color }) => (
+            <Entypo name={focused ? "help" : "help"} color={color} size={30} />
+          ),
         }}
       />
     </Tabs>
