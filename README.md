@@ -1,9 +1,10 @@
 Sample Images of Views
+<img width="427" height="875" alt="image" src="https://github.com/user-attachments/assets/30bb4377-afb8-4f50-adfc-1c63fe787c66" />
+<img width="411" height="867" alt="image" src="https://github.com/user-attachments/assets/f70898f7-490a-44b5-9fe3-e1a972a6fb92" />
+<img width="405" height="866" alt="image" src="https://github.com/user-attachments/assets/699308c3-8906-455e-8f37-0cdc69f6468f" />
+<img width="426" height="877" alt="image" src="https://github.com/user-attachments/assets/bfeb6c1f-a0b8-457d-b954-88433b1f92f6" />
 
-<img width="503" height="875" alt="image" src="https://github.com/user-attachments/assets/b2650412-37f0-49af-b9ab-c9357260791c" />
-<img width="410" height="873" alt="image" src="https://github.com/user-attachments/assets/7c7f036a-1b4d-45ae-aff1-d9bc9b8141b1" />
-<img width="430" height="871" alt="image" src="https://github.com/user-attachments/assets/ce5b1b56-5406-43ac-b641-eab25b05e1d6" />
-<img width="505" height="895" alt="image" src="https://github.com/user-attachments/assets/4f7de66f-cb37-4cbf-993a-1f07ea938237" />
+
 
 
 # Welcome to your Expo app 👋
